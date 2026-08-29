@@ -233,3 +233,6 @@ All WSF examples use:
 ---
 
 *WSF bridges meaning, representation, execution, and application — under governed, versioned, authoritative semantics.*
+
+
+<!-- Last forced re-render: 2026-08-29 -->
