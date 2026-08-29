@@ -1,10 +1,10 @@
 # World Semantic Foundation
 
-> **An authoritative, understandable, referenceable, machine-readable, executable, and integrable semantic foundation — bridging meaning, representation, execution, and application.**
+> **An authoritative, governed semantic foundation bridging meaning, representation, execution, and application.**
 
-The **World Semantic Foundation (WSF)** is a governed, versioned, authoritative semantic foundation from which downstream semantic systems — enterprise architecture, assessment models, knowledge graphs, AI agents, digital twins — may specialize, integrate, and extend without redefining foundational meaning.
+The **World Semantic Foundation (WSF)** provides a governed, versioned, authoritative semantic foundation from which downstream semantic systems — enterprise architecture, assessment models, knowledge graphs, AI agents, and digital twins — specialize, integrate, and extend without redefining foundational meaning.
 
-Established by **CR-WSF-17 Rev.1** and governed by the **WSF Architectural Decision Records (ADRs)**, WSF bridges four normally separated concerns:
+The architecture bridges four normally separated concerns:
 
 ```
 Meaning ──► Representation ──► Execution ──► Application
@@ -12,66 +12,59 @@ Meaning ──► Representation ──► Execution ──► Application
 
 ---
 
-## 📚 The 8 Repositories
+## The 8 Repositories
 
 WSF is implemented as **8 specialized repositories**. Each repository has a clear role and they work together as a governed product foundation.
 
-### 🏛️ Core Semantic Repositories
+### Core Semantic Repositories
 
 | Repository | Role | Status |
 |---|---|---|
-| [**wsf**](https://github.com/World-Semantic-Foundation/wsf) | Canonical semantic assets — authoritative concept definitions (Entity, Concept, Capability, etc.) | **Ready** |
+| [**wsf**](https://github.com/World-Semantic-Foundation/wsf) | Canonical semantic assets — authoritative concept definitions (Entity, Concept, Capability, Relationship, Event, State, Disposition, Proposition, Assertion, Identity, Context, Time, Space) | **Baseline** |
 | [**wsf-spec**](https://github.com/World-Semantic-Foundation/wsf-spec) | Normative semantic & conformance specifications | Scaffold |
-| [**wsf-governance**](https://github.com/World-Semantic-Foundation/wsf-governance) | ADRs, CRs, governance, lifecycle, authority, investigation record | **Ready** |
-| [**wsf-examples**](https://github.com/World-Semantic-Foundation/wsf-examples) | Reference applications (OTCHERE Inc, OTCHERE DC-01, Order Fulfillment Simulation) | **Ready** |
+| [**wsf-governance**](https://github.com/World-Semantic-Foundation/wsf-governance) | Architectural decisions, change requests, governance, lifecycle, authority, investigation record | **Baseline** |
+| [**wsf-examples**](https://github.com/World-Semantic-Foundation/wsf-examples) | Reference applications (OTCHERE Inc, OTCHERE DC-01, Order Fulfillment Simulation) | **Baseline** |
 
-### ⚙️ Implementation Repositories
+### Implementation Repositories
 
 | Repository | Role | Status |
 |---|---|---|
-| [**wsf-software**](https://github.com/World-Semantic-Foundation/wsf-software) | Deployable WSF Semantic Engine (Store + Services + API) | Scaffold |
+| [**wsf-software**](https://github.com/World-Semantic-Foundation/wsf-software) | WSF Semantic Engine (Semantic Store + Services + API layer) | Scaffold |
 | [**wsf-connectors**](https://github.com/World-Semantic-Foundation/wsf-connectors) | Integration adapters for OpenDEA, EA platforms, KG platforms, AI agents | Scaffold |
 | [**wsf-visuals**](https://github.com/World-Semantic-Foundation/wsf-visuals) | Reproducible visual semantic assets (Mermaid, PlantUML, SVG) | Scaffold |
 | [**wsf-docs**](https://github.com/World-Semantic-Foundation/wsf-docs) | Conceptual & implementation documentation (12 Foundational Principles) | Partial |
 
 ---
 
-## 🧭 How to Navigate the Org
+## How to Navigate the Org
 
-### 1. New to WSF? Start here
+### For Newcomers
 
-1. Read the [**12 Foundational Principles**](https://github.com/World-Semantic-Foundation/wsf-docs/blob/main/conceptual/FOUNDATIONAL-PRINCIPLES.md)
-2. Read the [**Top-Level README in `wsf-governance`**](https://github.com/World-Semantic-Foundation/wsf-governance) — explains the governance model
-3. Browse the [**17+ ADRs**](https://github.com/World-Semantic-Foundation/wsf-governance/tree/main/ADR) — the architectural decisions
-4. Browse the [**Tier 1 concepts**](https://github.com/World-Semantic-Foundation/wsf/tree/main/concepts) — the foundational semantics
+1. The [**12 Foundational Principles**](https://github.com/World-Semantic-Foundation/wsf-docs/blob/main/conceptual/FOUNDATIONAL-PRINCIPLES.md)
+2. The [**Top-Level README in `wsf-governance`**](https://github.com/World-Semantic-Foundation/wsf-governance)
+3. The [**17+ Architectural Decision Records**](https://github.com/World-Semantic-Foundation/wsf-governance/tree/main/ADR)
+4. The [**Tier 1 concepts**](https://github.com/World-Semantic-Foundation/wsf/tree/main/concepts)
 
-### 2. Looking for something specific?
+### For Specific Lookups
 
-| If you want to understand... | Go to |
+| To understand... | See |
 |---|---|
-| **What WSF is and why** | [wsf-governance/README.md](https://github.com/World-Semantic-Foundation/wsf-governance) |
-| **The 12 Foundational Principles** | [wsf-docs/conceptual/FOUNDATIONAL-PRINCIPLES.md](https://github.com/World-Semantic-Foundation/wsf-docs/blob/main/conceptual/FOUNDATIONAL-PRINCIPLES.md) |
-| **How WSF is governed** | [wsf-governance/GOVERNANCE/](https://github.com/World-Semantic-Foundation/wsf-governance/tree/main/GOVERNANCE) |
-| **What concepts are defined** | [wsf/concepts/](https://github.com/World-Semantic-Foundation/wsf/tree/main/concepts) |
-| **The investigation history** | [wsf-governance/RESEARCH/INVESTIGATION-RECORD.md](https://github.com/World-Semantic-Foundation/wsf-governance/blob/main/RESEARCH/INVESTIGATION-RECORD.md) |
-| **Worked examples** | [wsf-examples/](https://github.com/World-Semantic-Foundation/wsf-examples) |
-| **The Software Engine** | [wsf-software/README.md](https://github.com/World-Semantic-Foundation/wsf-software) |
-| **Integration architecture** | [wsf-connectors/README.md](https://github.com/World-Semantic-Foundation/wsf-connectors) |
-| **Visualization conventions** | [wsf-visuals/README.md](https://github.com/World-Semantic-Foundation/wsf-visuals) |
-| **How to write a new ADR** | [wsf-governance/templates/ADR-TEMPLATE.md](https://github.com/World-Semantic-Foundation/wsf-governance/blob/main/templates/ADR-TEMPLATE.md) |
-
-### 3. Want to contribute?
-
-WSF follows an **8-stage Change Control Lifecycle** with **6-stage Semantic Status** for every change. See:
-
-- [Change Control Lifecycle](https://github.com/World-Semantic-Foundation/wsf-governance/blob/main/GOVERNANCE/CHANGE-CONTROL-LIFECYCLE.md) — Investigation → Finding → Synthesis → ADR → CR → Implementation → Validation → Release
-- [Semantic Status Model](https://github.com/World-Semantic-Foundation/wsf-governance/blob/main/GOVERNANCE/SEMANTIC-STATUS-MODEL.md) — Candidate → Investigating → Proposed → Normative → Deprecated → Retired
+| What WSF is and why | [wsf-governance/README.md](https://github.com/World-Semantic-Foundation/wsf-governance) |
+| The 12 Foundational Principles | [wsf-docs/conceptual/FOUNDATIONAL-PRINCIPLES.md](https://github.com/World-Semantic-Foundation/wsf-docs/blob/main/conceptual/FOUNDATIONAL-PRINCIPLES.md) |
+| How WSF is governed | [wsf-governance/GOVERNANCE/](https://github.com/World-Semantic-Foundation/wsf-governance/tree/main/GOVERNANCE) |
+| What concepts are defined | [wsf/concepts/](https://github.com/World-Semantic-Foundation/wsf/tree/main/concepts) |
+| The investigation history | [wsf-governance/RESEARCH/INVESTIGATION-RECORD.md](https://github.com/World-Semantic-Foundation/wsf-governance/blob/main/RESEARCH/INVESTIGATION-RECORD.md) |
+| Worked examples | [wsf-examples/](https://github.com/World-Semantic-Foundation/wsf-examples) |
+| The Semantic Engine architecture | [wsf-software/README.md](https://github.com/World-Semantic-Foundation/wsf-software) |
+| Integration architecture | [wsf-connectors/README.md](https://github.com/World-Semantic-Foundation/wsf-connectors) |
+| Visualization conventions | [wsf-visuals/README.md](https://github.com/World-Semantic-Foundation/wsf-visuals) |
+| How to author a new ADR | [wsf-governance/templates/ADR-TEMPLATE.md](https://github.com/World-Semantic-Foundation/wsf-governance/blob/main/templates/ADR-TEMPLATE.md) |
 
 ---
 
-## 🏛️ The 7-Capability Product Architecture
+## The 7-Capability Product Architecture
 
-WSF provides **seven mutually reinforcing capabilities**:
+The WSF Product Foundation provides seven mutually reinforcing capabilities:
 
 ```
                           WSF
@@ -101,32 +94,28 @@ WSF provides **seven mutually reinforcing capabilities**:
 
 ---
 
-## 🎯 What WSF Is — And What It Is Not
+## What WSF Provides
 
-### WSF **IS**
+The architecture establishes an authoritative semantic layer that:
 
-- An **authoritative** semantic foundation (one meaning, one definition)
-- **Understandable** — readable by humans and machines
-- **Referenceable** — every concept has a stable identity
-- **Machine-readable** — YAML, JSON-LD, RDF, OWL representations
-- **Executable** — Semantic Engine + Connectors
-- **Integrable** — with OpenDEA, EA platforms, KG platforms, AI agents
-- **Visualizable** — reproducible semantic diagrams
-- **Simulatable** — Digital Twin + Simulation patterns
-- **Applicable** — to real entities, organizations, capabilities (e.g., OTCHERE Inc, Kwesi, Order Management)
+- **Establishes meaning** through 12 Tier 1 foundational concepts (Entity, Concept, Relationship, Event, State, Disposition, Proposition, Assertion, Identity, Context, Time, Space)
+- **Enables specialization** through governed inheritance rules
+- **Supports assertion** of facts with full provenance, evidence, and trust evaluation
+- **Maintains identity** across representation, context, version, and lifecycle changes
+- **Validates conformance** through semantic constraint checking
+- **Versions evolution** while preserving semantic lineage
 
-### WSF **IS NOT**
+## What WSF Is Not
 
 - A flat vocabulary or terminology list
 - An enterprise architecture metamodel (OpenDEA remains separate)
 - An assessment model (Assessment-Models remains separate)
-- A single ontology (WSF is a foundation for multiple ontologies)
-- A specific technology (RDF, OWL, JSON-LD are implementation choices)
+- A specific ontology technology (RDF/OWL/JSON-LD are implementation choices)
 - A repository convention (architecture follows semantic responsibility)
 
 ---
 
-## 🔍 The 13 Foundational Semantic Domains
+## The 13 Foundational Semantic Domains
 
 WSF recognizes the following foundational semantic domains:
 
@@ -146,20 +135,20 @@ WSF recognizes the following foundational semantic domains:
 
 ---
 
-## 🌐 Boundaries Preserved
+## Boundaries Preserved
 
-WSF operates in a **federated ecosystem**:
+WSF operates in a federated ecosystem with explicit boundary preservation:
 
-- **WSF** — World semantics (this org)
+- **WSF** — World semantics
 - **OpenDEA** — Enterprise Architecture specialization (separate org)
 - **Assessment-Models** — Maturity / Assessment governance (separate org)
 - **Semantic Architecture / Ontology Architecture** — semantic & formal representation layers
 
-These remain **independent lifecycle boundaries** with **governed semantic interfaces**.
+Each maintains independent lifecycle boundaries with governed semantic interfaces.
 
 ---
 
-## 🧬 Tier 1 Foundational Concepts (12/12 COMPLETE)
+## Tier 1 Foundational Concepts (12/12 Baseline)
 
 | # | Concept | Tier | Domain |
 |---|---|---|---|
@@ -176,63 +165,61 @@ These remain **independent lifecycle boundaries** with **governed semantic inter
 | 11 | **Time** | 1 | Temporality |
 | 12 | **Space** | 1 | Spatiality |
 
-Plus **Capability** (Tier 3 specialized Disposition) as a worked example.
+**Capability** (Tier 3 specialized Disposition) is included as a worked example.
 
-Browse them all: [github.com/World-Semantic-Foundation/wsf/tree/main/concepts](https://github.com/World-Semantic-Foundation/wsf/tree/main/concepts)
-
----
-
-## 📜 Governance Model
-
-WSF follows a strict governance discipline:
-
-1. **No implementation without an ADR.** Every architectural decision is recorded.
-2. **No ADR without investigation.** Every ADR traces to investigation.
-3. **Investigation → Finding → Synthesis → ADR → CR → Implementation → Validation → Release.** The 8-stage lifecycle.
-4. **Authority follows semantic responsibility** (not repository location).
-5. **Concept Identity persists through compatible evolution** (per ADR-WSF-18).
-6. **Meaning precedes representation** (per ADR-WSF-23 forthcoming).
+Browse them: [github.com/World-Semantic-Foundation/wsf/tree/main/concepts](https://github.com/World-Semantic-Foundation/wsf/tree/main/concepts)
 
 ---
 
-## 📞 Canonical Example Convention
+## Governance Model
 
-All WSF examples use:
+The architecture operates under these governance disciplines:
+
+1. **Investigation before implementation.** Every architectural decision traces to documented investigation.
+2. **Decisions are explicit.** The architectural decision record (ADR) is the authoritative architectural statement.
+3. **Implementation is traceable.** Change requests implement ADRs with explicit scope.
+4. **Lifecycle is governed.** Semantic artifacts move through defined status states.
+5. **Authority follows semantic responsibility.** Not repository location.
+6. **Identity persists through compatible evolution.** Meaning-based identifiers survive representation, context, and version changes.
+7. **Meaning precedes representation.** Semantic authority is independent of format.
+
+---
+
+## Canonical Example Convention
+
+All WSF documentation uses:
 
 - **Enterprise**: **OTCHERE Inc** (or OTCHERE)
 - **Individual**: **Kwesi**
 - **System**: **OTCHERE DC-01**
 
-**ACME is prohibited.**
+Other enterprise names are not used in WSF artifacts.
 
 ---
 
-## 📅 Current State (2026-08-29)
+## Current State
 
 | Component | Status |
 |---|---|
-| Phase 0 Baseline | FROZEN |
-| ADRs | 22 (1 Accepted, 5 new Proposed in Phase 2) |
-| Tier 1 concepts | 12/12 COMPLETE |
+| Foundational semantic baseline | Final |
+| Architectural decision records | 22 records (1 final, 21 baseline) |
+| Tier 1 concepts | 12/12 final |
 | Tier 3 example concepts | 1 (Capability) |
-| Repositories live | 8 + .github profile |
+| Repositories live | 8 |
 | Reference examples | 3 (OTCHERE Inc, OTCHERE DC-01, Order Fulfillment Simulation) |
-| Documentation | 12 Foundational Principles complete; rest scaffolded |
-| Implementations | SCAFFOLD — awaiting ADR-WSF-24+ |
+| Documentation | 12 Foundational Principles complete; remaining documentation scaffolded |
+| Implementations | Scaffold; specifications provided by subsequent architectural decisions |
 
 ---
 
-## 🔗 Quick Links
+## Quick Links
 
 - **Top-Level Architecture**: [wsf-governance/README.md](https://github.com/World-Semantic-Foundation/wsf-governance)
 - **Tier 1 Concepts**: [wsf/concepts/](https://github.com/World-Semantic-Foundation/wsf/tree/main/concepts)
-- **All ADRs**: [wsf-governance/ADR/](https://github.com/World-Semantic-Foundation/wsf-governance/tree/main/ADR)
+- **All Architectural Decisions**: [wsf-governance/ADR/](https://github.com/World-Semantic-Foundation/wsf-governance/tree/main/ADR)
 - **Examples**: [wsf-examples/](https://github.com/World-Semantic-Foundation/wsf-examples)
 - **Principles**: [wsf-docs/conceptual/FOUNDATIONAL-PRINCIPLES.md](https://github.com/World-Semantic-Foundation/wsf-docs/blob/main/conceptual/FOUNDATIONAL-PRINCIPLES.md)
 
 ---
 
 *WSF bridges meaning, representation, execution, and application — under governed, versioned, authoritative semantics.*
-
-
-<!-- Last forced re-render: 2026-08-29 -->

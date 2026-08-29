@@ -27,7 +27,7 @@ Examples of unacceptable behavior:
 
 ## Semantic Integrity
 
-WSF is a **semantic foundation**. Discussions about meaning, definitions, and concepts are central to the work. We expect:
+WSF is a **semantic foundation**. Discussions about meaning, definitions, and concepts are central to the work. The architecture:
 
 - **Disagreements about meaning** to be handled through the ADR process, not personal disputes
 - **Constructive semantic debate** focused on evidence, logic, and use cases
