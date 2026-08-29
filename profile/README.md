@@ -2,7 +2,7 @@
 
 > **An authoritative, governed semantic foundation bridging meaning, representation, execution, and application.**
 
-The **World Semantic Foundation (WSF)** provides a governed, versioned, authoritative semantic foundation from which downstream semantic systems — enterprise architecture, assessment models, knowledge graphs, AI agents, and digital twins — specialize, integrate, and extend without redefining foundational meaning.
+The **World Semantic Foundation (WSF)** provides a governed, versioned, authoritative semantic foundation from which downstream semantic systems: enterprise architecture, assessment models, knowledge graphs, AI agents, etc., specialize, integrate, and extend without redefining foundational meaning.
 
 The architecture bridges four normally separated concerns:
 
