@@ -1,11 +1,3 @@
-<!---
-GitHub special-purpose repo: this `.github` repo hosts the WSF organization
-profile README and shared organization-wide community / governance files.
-
-The README.md in this repo is rendered on the public org page at:
-https://github.com/World-Semantic-Foundation
--->
-
 # World Semantic Foundation
 
 > **An authoritative, understandable, referenceable, machine-readable, executable, and integrable semantic foundation — bridging meaning, representation, execution, and application.**
