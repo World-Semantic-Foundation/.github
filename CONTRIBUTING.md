@@ -2,7 +2,7 @@
 
 > **WSF follows a strict governance discipline. All contributions go through the ADR → CR process.**
 
-Thank you for your interest in contributing to the World Semantic Foundation. WSF is a **governed, versioned, authoritative semantic foundation** — meaning contributions are carefully managed to preserve semantic integrity, traceability, and conformance.
+Thank you for your interest in contributing to the World Semantic Foundation. WSF is a **governed, versioned, authoritative semantic foundation** : meaning contributions are carefully managed to preserve semantic integrity, traceability, and conformance.
 
 ---
 
@@ -96,18 +96,18 @@ Status changes happen through ADRs, not through direct edits.
 
 All contributions must respect the [12 Foundational Principles](https://github.com/World-Semantic-Foundation/wsf-docs/blob/main/conceptual/FOUNDATIONAL-PRINCIPLES.md):
 
-1. **Semantic Primacy** — Meaning precedes representation
-2. **Minimal Foundation** — Smallest sufficiently expressive foundation
-3. **Explicit Specialization** — Domain concepts specialize, not redefine
-4. **Versioned Evolution** — Changes are governed
-5. **Authoritative Provenance** — Sources are tracked
-6. **Governance First** — Architecture precedes implementation
-7. **Layered Realization** — Multiple levels, distinct concerns
-8. **Traceable Rationale** — Decisions have documented reasoning
-9. **Constrained Extensibility** — Extensions are governed
-10. **Verifiable Conformance** — Claims are demonstrable
-11. **Identity by Meaning** — Identity persists through change
-12. **Investigation-Driven** — Decisions follow research
+1. **Semantic Primacy** : Meaning precedes representation
+2. **Minimal Foundation** : Smallest sufficiently expressive foundation
+3. **Explicit Specialization** : Domain concepts specialize, not redefine
+4. **Versioned Evolution** : Changes are governed
+5. **Authoritative Provenance** : Sources are tracked
+6. **Governance First** : Architecture precedes implementation
+7. **Layered Realization** : Multiple levels, distinct concerns
+8. **Traceable Rationale** : Decisions have documented reasoning
+9. **Constrained Extensibility** : Extensions are governed
+10. **Verifiable Conformance** : Claims are demonstrable
+11. **Identity by Meaning** : Identity persists through change
+12. **Investigation-Driven** : Decisions follow research
 
 ---
 

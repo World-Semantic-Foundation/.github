@@ -72,8 +72,8 @@ WSF follows a strict governance model. For questions about:
 
 ## 🌐 Related Organizations
 
-- **OpenDEA** — Enterprise Architecture specialization (separate org)
-- **Assessment-Models** — Maturity / Assessment governance (separate org)
+- **OpenDEA** : Enterprise Architecture specialization (separate org)
+- **Assessment-Models** : Maturity / Assessment governance (separate org)
 
 ---
 

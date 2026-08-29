@@ -2,7 +2,8 @@
 
 > **An authoritative, governed semantic foundation bridging meaning, representation, execution, and application.**
 
-The **World Semantic Foundation (WSF)** provides a governed, versioned, authoritative semantic foundation from which downstream semantic systems: enterprise architecture, assessment models, knowledge graphs, AI agents, etc., specialize, integrate, and extend without redefining foundational meaning.
+The **World Semantic Foundation (WSF)** provides a governed, versioned, authoritative semantic foundation from which downstream semantic systems ; enterprise architecture, assessment models, knowledge graphs, AI agents, and digital twins ; specialize, integrate, and extend without redefining foundational meaning.
+ 5fde161 (docs: replace en/em dashes with colons and semicolons per punctuation rule)
 
 The architecture bridges four normally separated concerns:
 
@@ -20,7 +21,7 @@ WSF is implemented as **8 specialized repositories**. Each repository has a clea
 
 | Repository | Role | Status |
 |---|---|---|
-| [**wsf**](https://github.com/World-Semantic-Foundation/wsf) | Canonical semantic assets — authoritative concept definitions (Entity, Concept, Capability, Relationship, Event, State, Disposition, Proposition, Assertion, Identity, Context, Time, Space) | **Baseline** |
+| [**wsf**](https://github.com/World-Semantic-Foundation/wsf) | Canonical semantic assets ; authoritative concept definitions (Entity, Concept, Capability, Relationship, Event, State, Disposition, Proposition, Assertion, Identity, Context, Time, Space) | **Baseline** |
 | [**wsf-spec**](https://github.com/World-Semantic-Foundation/wsf-spec) | Normative semantic & conformance specifications | Scaffold |
 | [**wsf-governance**](https://github.com/World-Semantic-Foundation/wsf-governance) | Architectural decisions, change requests, governance, lifecycle, authority, investigation record | **Baseline** |
 | [**wsf-examples**](https://github.com/World-Semantic-Foundation/wsf-examples) | Reference applications (OTCHERE Inc, OTCHERE DC-01, Order Fulfillment Simulation) | **Baseline** |
@@ -139,10 +140,10 @@ WSF recognizes the following foundational semantic domains:
 
 WSF operates in a federated ecosystem with explicit boundary preservation:
 
-- **WSF** — World semantics
-- **OpenDEA** — Enterprise Architecture specialization (separate org)
-- **Assessment-Models** — Maturity / Assessment governance (separate org)
-- **Semantic Architecture / Ontology Architecture** — semantic & formal representation layers
+- **WSF** : World semantics
+- **OpenDEA** : Enterprise Architecture specialization (separate org)
+- **Assessment-Models** : Maturity / Assessment governance (separate org)
+- **Semantic Architecture / Ontology Architecture** : semantic & formal representation layers
 
 Each maintains independent lifecycle boundaries with governed semantic interfaces.
 
@@ -222,4 +223,4 @@ Other enterprise names are not used in WSF artifacts.
 
 ---
 
-*WSF bridges meaning, representation, execution, and application — under governed, versioned, authoritative semantics.*
+*WSF bridges meaning, representation, execution, and application ; under governed, versioned, authoritative semantics.*

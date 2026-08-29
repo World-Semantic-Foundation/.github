@@ -31,8 +31,8 @@ WSF is a **semantic foundation**. Discussions about meaning, definitions, and co
 
 - **Disagreements about meaning** to be handled through the ADR process, not personal disputes
 - **Constructive semantic debate** focused on evidence, logic, and use cases
-- **Respect for the governance model** — bypassing ADR/CR processes is a violation
-- **Use of canonical examples** — ACME and other prohibited examples are not welcome
+- **Respect for the governance model** : bypassing ADR/CR processes is a violation
+- **Use of canonical examples** : ACME and other prohibited examples are not welcome
 
 ## Enforcement Responsibilities
 
@@ -42,7 +42,7 @@ Community leaders have the right and responsibility to remove, edit, or reject c
 
 ## Scope
 
-This Code of Conduct applies within all community spaces — GitHub repositories, issue trackers, discussions, and any other forums where the WSF community gathers. It also applies when an individual is officially representing the community in public spaces.
+This Code of Conduct applies within all community spaces ; GitHub repositories, issue trackers, discussions, and any other forums where the WSF community gathers. It also applies when an individual is officially representing the community in public spaces.
 
 ## Enforcement
 
