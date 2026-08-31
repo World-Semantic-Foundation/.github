@@ -76,11 +76,11 @@ The WSF Product Foundation provides seven mutually reinforcing capabilities:
    FOUNDATION         ASSETS               ENGINE
         │                  │                  │
         ▼                  ▼                  ▼
-   INTEGRATION ──► VISUALIZATION ──► REALIZATION
+   INTEGRATION  ──►  VISUALIZATION  ──►  REALIZATION
                           │
-                  supported by
+                    supported by
                           │
-                       GOVERNANCE
+                      GOVERNANCE
 ```
 
 | # | Capability | Repository |
